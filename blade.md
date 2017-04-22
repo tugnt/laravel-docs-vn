@@ -56,7 +56,7 @@ Khi tạo một trang con, bạn có thể sử dụng `@extends` để cho bi�
     @section('title', 'Page Title')
 
     @section('sidebar')
-        @@parent
+        @parent
 
         <p>This is appended to the master sidebar.</p>
     @endsection
